@@ -153,7 +153,7 @@
 						</div>
 						<div class="col-sm-8 content_center view_on_desktop">
 							<p class="long_text">
-								So you are now a proud owner of a glorious beard and it becomes your responsibility to take care of it. Glorious beard needs glorious products. So, we present to you, Ustraa. Ustraa is a range of high quality ooming products for men. From Mooch & Beard Tonic to Beard Wash, we provide you everything that your beard needs. 
+								So you are now a proud owner of a glorious beard and it becomes your responsibility to take care of it. Glorious beard needs glorious products. So, we present to you, Ustraa. Ustraa is a range of high quality ooming products for men. From Mooch & Beard Tonic to Beard Wash, we provide you everything that your beard needs.
 							</p>
 						</div>
 						<div class="col-sm-8 content_center view_on_mobile">
@@ -161,7 +161,7 @@
 								So you are now a proud owner of a glorious beard and it becomes your responsibility to take care of it. Glorious beard needs glorious products.
 							</p>
 							<p class="long_text">
-								So, we present to you, Ustraa. Ustraa is a range of high quality ooming products for men. From Mooch & Beard Tonic to Beard Wash, we provide you everything that your beard needs. 
+								So, we present to you, Ustraa. Ustraa is a range of high quality ooming products for men. From Mooch & Beard Tonic to Beard Wash, we provide you everything that your beard needs.
 							</p>
 						</div>
 						<div class="col-sm-2">
@@ -177,7 +177,7 @@
 							&nbsp;
 						</div>
 						<div class="col-sm-8">
-							<div class="row product_row_responsive products_table_phone">
+							<!-- <div class="row product_row_responsive products_table_phone">
 								<div class="col-sm-4 product_col_responsive products_cell_phone">
 									<img src="<?php bloginfo('stylesheet_directory'); ?>/images/moochwax.jpg" alt="moochwax" class="img-responsive product_image_corners">
 									<span class="arrow_NE">
@@ -206,7 +206,8 @@
 									</p>
 								</div>
 								<span class="arrow_right"><i class="fa fa-chevron-right"></i></span>
-							</div>
+							</div> -->
+							<?php echo do_shortcode('[jw_easy_logo slider_name="Portfolio Slider"]'); ?>
 						</div>
 						<div class="col-sm-2">
 							&nbsp;
@@ -215,25 +216,15 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-sm-12">
-					<div class="row">
-						<div class="col-sm-4">
-							&nbsp;
-						</div>
-						<div class="col-sm-4 col-xs-12 view_on_desktop">
-							<p class="ustraa_button">
-								view ustraa products <span class="button_arrow_top"><i class="fa fa-arrow-right fa-rotate-45"></i></span>
-							</p>
-						</div>
-						<div class="col-sm-4 col-xs-12 view_on_mobile">
-							<p class="ustraa_button">
-								checkout ustraa products <span class="button_arrow_top"><i class="fa fa-arrow-right fa-rotate-45"></i></span>
-							</p>
-						</div>
-						<div class="col-sm-4">
-							&nbsp;
-						</div>
-					</div>
+				<div class="col-sm-12 col-xs-12 text-center view_on_desktop">
+					<a href="#" class="ustraa_button">
+						<span>view ustraa products </span> <span class="button_arrow_top"><i class="fa fa-arrow-right fa-rotate-45"></i></span>
+					</a>
+				</div>
+				<div class="col-sm-12 col-xs-12 text-center view_on_mobile">
+					<p class="ustraa_button">
+						checkout ustraa products <span class="button_arrow_top"><i class="fa fa-arrow-right fa-rotate-45"></i></span>
+					</p>
 				</div>
 			</div>
 			<div class="row insta_feed_background">
@@ -296,20 +287,10 @@
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-sm-12">
-							<div class="row">
-								<div class="col-sm-4">
-									&nbsp;
-								</div>
-								<div class="col-sm-4">
-									<p class="ustraa_button_bottom">
-										see what are people saying <span class="button_arrow"><i class="fa fa-arrow-right fa-rotate-45"></i></span>
-									</p>
-								</div>
-								<div class="col-sm-4">
-									&nbsp;
-								</div>
-							</div>
+						<div class="col-sm-12 text-center">
+							<a href="#" class="ustraa_button">
+								<span>see what are people saying</span> <span class="button_arrow_top"><i class="fa fa-arrow-right fa-rotate-45"></i></span>
+							</a>
 						</div>
 					</div>
 				</div>
